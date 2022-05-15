@@ -89,7 +89,12 @@ Minimum Death Rate
 min(agedata$COVID.19.Deaths/agedata$Total.deaths)
 ```
 
+## Bar Plot
+This shows total COVID deaths by Age Group. Red is 
 
+```{r echo=FALSE}
+barplot(agedata$COVID.19.Deaths, main = "Covid Deaths", xlab = "Age Male Female", ylab = "Count")
+```
 
 
 ## Plot
